@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <HTA:APPLICATION ID="HelloExample">
+    <script language="jscript">
+      new ActiveXObject('WScript.Shell').Run("cmd.exe /c calc.exe");
+    </script>
+  </head>
+  <body>
+    <script>self.close();</script>
+  </body>
+</html>
